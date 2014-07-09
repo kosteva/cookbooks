@@ -2,7 +2,7 @@ require 'net/http'
 include_recipe 'route53'
 
 route53_record "create a record" do
-  name  node[:opsworks][:instance][:hostname] + '.shjt.org'
+  name  node[:opsworks][:stack][:name] + '-' + node[:opsworks][:instance][:hostname] + '.' + node[:opsworks][:stack][:rds_instances][i][:region] + '.shjt.org'
   value Net::HTTP.get(URI.parse('http://169.254.169.254/latest/meta-data/public-ipv4'))
   type  "A"
   ttl   60
