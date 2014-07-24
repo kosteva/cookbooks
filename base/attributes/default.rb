@@ -1,2 +1,1 @@
-set['system']['timezone'] = 'EST'
-set['system']['domainname'] = 'shjt.org'
+set['set_fqdn'] = '*.shjt.org'

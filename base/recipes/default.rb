@@ -6,4 +6,4 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-include_recipe 'system::default'
+include_recipe 'hostname::default'

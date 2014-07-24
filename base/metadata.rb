@@ -6,4 +6,4 @@ description      'Installs/Configures base'
 long_description 'Installs/Configures base'
 version          '0.1.0'
 
-depends 'system'
+depends 'hostname'
