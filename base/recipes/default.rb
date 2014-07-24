@@ -7,3 +7,4 @@
 # All rights reserved - Do Not Redistribute
 #
 include_recipe 'hostname::default'
+include_recipe 'postfix::default'
