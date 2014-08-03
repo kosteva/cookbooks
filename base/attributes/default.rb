@@ -1,1 +1,1 @@
-set['set_fqdn'] = node[:opsworks][:instance][:hostname] + '.shjt.org'
+set['set_fqdn'] = node[:opsworks][:instance][:hostname] + '.memecast.net'
