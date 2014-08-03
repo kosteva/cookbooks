@@ -6,7 +6,7 @@ description      'Installs/Configures base'
 long_description 'Installs/Configures base'
 version          '0.1.0'
 
-depends 'hostname'
+depends 'hostnames'
 depends 'postfix'
 depends 'apt-periodic'
 depends 'aide'

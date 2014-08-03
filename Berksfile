@@ -1,6 +1,6 @@
 source "https://api.berkshelf.com"
 
-cookbook 'hostname'
+cookbook 'hostnames'
 cookbook 'postfix'
 cookbook 'apt-periodic'
 cookbook 'aide'

@@ -6,7 +6,7 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-include_recipe 'hostname::default'
+include_recipe 'hostnames::default'
 include_recipe 'postfix::default'
 include_recipe 'apt-periodic::default'
 #include_recipe 'aide::default'
